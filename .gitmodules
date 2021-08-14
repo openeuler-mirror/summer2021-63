@@ -1,0 +1,3 @@
+[submodule "coreutils"]
+	path = coreutils
+	url = https://gitee.com/meilier/coreutils.git
