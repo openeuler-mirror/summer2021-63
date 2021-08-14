@@ -8,15 +8,24 @@ Software architecture description
 
 #### Installation
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. kiwi-ng system build --description openeulerdescription.x86_64/ --target ~/test
+
+2. docker load -i test/openeuler.x86_64-1.0.0.docker.tar.xz
+
+3. docker images
+
+   ```shell
+   [root@host]# docker images
+   REPOSITORY                           TAG       IMAGE ID       CREATED        SIZE
+   openeuler                            latest    7e078d8c1da8   25 hours ago   202MB
+   hub.oepkgs.net/openeuler/openeuler   21.03     4367e32711f9   4 months ago   230MB
+   ```
+
+   
 
 #### Instructions
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  docker run --name openeuler --priviledged -it openeuler bash
 
 #### Contribution
 

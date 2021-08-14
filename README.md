@@ -6,18 +6,27 @@ https://gitee.com/openeuler-competition/summer-2021/issues/I3EM49
 #### 软件架构
 软件架构说明
 
-
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. kiwi-ng system build --description openeulerdescription.x86_64/ --target ~/test
+
+2. docker load -i test/openeuler.x86_64-1.0.0.docker.tar.xz
+
+3. docker images
+
+   ```shell
+   [root@host]# docker images
+   REPOSITORY                           TAG       IMAGE ID       CREATED        SIZE
+   openeuler                            latest    7e078d8c1da8   25 hours ago   202MB
+   hub.oepkgs.net/openeuler/openeuler   21.03     4367e32711f9   4 months ago   230MB
+   ```
+
+   
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  docker run --name openeuler --priviledged -it openeuler bash
+2.  执行docker run 命令的时候需要加入参数--priviledged以免yum安装软件的时候有错误
 
 #### 参与贡献
 
