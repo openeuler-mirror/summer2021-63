@@ -1,3 +1,39 @@
 [submodule "coreutils"]
 	path = coreutils
 	url = https://gitee.com/meilier/coreutils.git
+[submodule "lz4"]
+	path = lz4
+	url = https://gitee.com/wojibayang/lz4
+[submodule "lua"]
+	path = lua
+	url = https://gitee.com/wojibayang/lua
+[submodule "zstd"]
+	path = zstd
+	url = https://gitee.com/wojibayang/zstd
+[submodule "libxml2"]
+	path = libxml2
+	url = https://gitee.com/wojibayang/libxml2
+[submodule "gdbm"]
+	path = gdbm
+	url = https://gitee.com/wojibayang/gdbm
+[submodule "attr"]
+	path = attr
+	url = https://gitee.com/wojibayang/attr
+[submodule "e2fsprogs"]
+	path = e2fsprogs
+	url = https://gitee.com/wojibayang/e2fsprogs
+[submodule "brotli"]
+	path = brotli
+	url = https://gitee.com/wojibayang/brotli
+[submodule "libverto"]
+	path = libverto
+	url = https://gitee.com/wojibayang/libverto
+[submodule "elfutils"]
+	path = elfutils
+	url = https://gitee.com/wojibayang/elfutils
+[submodule "chkconfig"]
+	path = chkconfig
+	url = https://gitee.com/wojibayang/chkconfig
+[submodule "bzip2"]
+	path = bzip2
+	url = https://gitee.com/wojibayang/bzip2
